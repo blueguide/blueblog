@@ -2,7 +2,6 @@
 layout:default
 title: BlueBlog - Fuck world! Fuck code!
 ---
-![My helpful screenshot]({{ site.url }}/images/coder.jpg)
 
 <h2>{{ page.title }}</h2>
 
