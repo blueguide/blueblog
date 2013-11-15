@@ -21,6 +21,11 @@ title : "Blueblog - Fuck world!Fuck code!"
       <section>
         <h1><a name="blueblog" class="anchor" href="#blueblog"><span class="octicon octicon-link"></span></a>blueblog</h1>
 		<p>Just for fun!</p>
+	<ul>
+	{% for post in site.post %}
+		<li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title}}</a></li>
+	{% endfor%}
+	</ul>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/blueguide">blueguide</a></p>
