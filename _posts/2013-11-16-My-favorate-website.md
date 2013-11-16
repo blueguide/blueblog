@@ -5,4 +5,6 @@ keywords : "MY Favaorate Website-blueblog"
 descriptions : ""
 ---
 
--	[Jekyll](http://jekyllrb.com/)
+-	[Jekyll][t1]
+
+[t1]: http://jekyllrb.com/ "Jekyll"
