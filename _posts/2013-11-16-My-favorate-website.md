@@ -5,7 +5,7 @@ keywords : "MY Favaorate Website-blueblog"
 descriptions : ""
 ---
 
-### Official website [home]({{ site.baseurl }})
+### Official website [\[home\]]({{ site.baseurl }})
 
 ---
 
