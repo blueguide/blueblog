@@ -11,4 +11,6 @@ descriptions : ""
 
 -	[Jekyll-Official website][t1]
 
+Transform your plain text into static websites and blogs.
+
 [t1]: http://jekyllrb.com/ "Jekyll"
