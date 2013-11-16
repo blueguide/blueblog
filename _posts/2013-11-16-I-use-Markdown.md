@@ -43,6 +43,20 @@ I start my morning with a cup of coffee and
 
 ![alt text][4]
 
+I strongly recommend against using any `<blink>` tags.
+
+I wish SmartyPants used named entities like `&mdash;`
+instead of decimal-encoded entites like `&#8212;`.
+
+If you want your page to validate under XHTML 1.0 Strict,
+you've got to put paragraph tags in your blockquotes:
+
+    <blockquote>
+        <p>For example.</p>
+    </blockquote>
+
+Use the `printf()` function.
+	
 [ny times]: http://www.nytimes.com/
 [1]: http://google.com/        "Google"
 [2]: http://search.yahoo.com/  "Yahoo Search"
