@@ -17,9 +17,9 @@ regular paragraph.
 
 > This *is a blockquote*.
 > 
-> This _is the second paragraph_ **in the blockquote.**
+> This _is the second paragraph_ in the blockquote.
 >
-> ## *This is an H2 __in a blockquote__
+> ## This is an H2 __in a blockquote__
 
 * Candy.
 * Gum.
