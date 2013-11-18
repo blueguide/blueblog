@@ -4,6 +4,7 @@ title : "MY Favorate Website"
 keywords : "MY Favaorate Website-blueblog"
 descriptions : ""
 categories : ['code','work']
+tags : ['code','work']
 ---
 
 ### Official website [\[home\]]({{ site.baseurl }}) 
