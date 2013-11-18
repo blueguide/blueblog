@@ -3,7 +3,7 @@ layout : website
 title : "MY Favorate Website"
 keywords : "MY Favaorate Website-blueblog"
 descriptions : ""
-categories : [SITE,technology]
+category : sites
 ---
 
 ### Official website [\[home\]]({{ site.baseurl }})
