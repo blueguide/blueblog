@@ -3,10 +3,12 @@ layout : website
 title : "MY Favorate Website"
 keywords : "MY Favaorate Website-blueblog"
 descriptions : ""
-category : sites
+categories : ['code','work']
 ---
 
-### Official website [\[home\]]({{ site.baseurl }})
+### Official website [\[home\]]({{ site.baseurl }}) 
+
+<small>{{ page.categories }}</small>
 
 ---
 
