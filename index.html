@@ -4,7 +4,7 @@ title : "Blueblog - Fuck world!Fuck code!"
 ---
 
 	<h1><a name="blueblog" class="anchor" href="#blueblog"><span class="octicon octicon-link"></span></a>blueblog</h1>
-	<p>Just for fun!</p>
+	<p>Just for fun!{{ site.time }}</p>
 	<ul>
 	{% for post in site.posts %}
 		<li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title}}</a></li>
