@@ -12,8 +12,8 @@ title : "Blueblog - Fuck world!Fuck code!"
 	</ul>
 	
 	<ul>
-	{% for post in site.categories.sites %}
-		<li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title}}</a></li>
+	{% for category in site.categories.sites %}
+		<li><a href="{{ site.baseurl}}{{ category.url }}">{{ category.title}}</a></li>
 	{% endfor %}
 	</ul>
       
