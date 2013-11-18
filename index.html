@@ -5,12 +5,17 @@ title : "Blueblog - Fuck world!Fuck code!"
 
 	<h1><a name="blueblog" class="anchor" href="#blueblog"><span class="octicon octicon-link"></span></a>blueblog</h1>
 	<p>last update time:{{ site.time }}</p>
+	
+	<h3>All Blog</h3>
+	<hr />
 	<ul>
 	{% for post in site.posts %}
 		<li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title}}</a><small>{{ page.date }}</small></li>
 	{% endfor %}
 	</ul>
 	
+	<h3>code</h3>
+	<hr />
 	<ul>
 	{% for category in site.categories.code %}
 		<li><a href="{{ site.baseurl}}{{ category.url }}">{{ category.title}}</a></li>
