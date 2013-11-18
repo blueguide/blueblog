@@ -7,7 +7,7 @@ title : "Blueblog - Fuck world!Fuck code!"
 	<p>Just for fun!{{ site.time }}</p>
 	<ul>
 	{% for post in site.posts %}
-		<li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title}}</a></li>
+		<li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title}}</a><small>{{ page.date }}</small></li>
 	{% endfor %}
 	</ul>
 	
