@@ -11,7 +11,7 @@ title : "Blueblog - Fuck world!Fuck code!"
 	
 	<ul>
 	{% for post in paginator.posts %}
-		<li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title}}</a><small>{{ post.date }}</small></li>
+		<li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title}}</a><small>{{ post.date | date_to_string }}</small></li>
 	{% endfor %}
 	</ul>
 	

@@ -1,5 +1,5 @@
 ---
-layout : website
+layout : default
 title : "MY Favorate Website"
 keywords : "MY Favaorate Website-blueblog"
 descriptions : ""
