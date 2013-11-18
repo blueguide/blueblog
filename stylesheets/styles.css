@@ -254,3 +254,10 @@ footer {
     color:#444;
   }
 }
+
+/***************************************************
+* the below is mine
+****************************************************/
+
+/*avator*/
+.avator img{border-radius:5px;vertical-align:top;}
