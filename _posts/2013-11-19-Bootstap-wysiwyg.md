@@ -12,7 +12,15 @@ Source code analysis
 
 {% highlight JavaScript linenos %}
 	(function ($) {
-
+		/*Get the HTML contents*/
+		$.fn.cleanHtml = function () {
+			//Get the HTML contents
+			var html = $(this).html();
+			//use the regular expression to filter the <br>,&nbsp and empty <div> tags.
+			//&&:A&&B,if A=true return B else return A; A=null or undefined or '',then return '';
+			//the key feature:(Optionally) cleans up trailing whitespace and empty divs and spans
+			return html && html.replace(/(<br>|\s|<div><br><\/div>|&nbsp;)*$/, '');
+		};
 	}(window.jQuery));
 {% endhighlight %}
 
