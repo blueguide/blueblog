@@ -1,10 +1,10 @@
 ---
-layout : default
+layout : website
 title : Bootstrap-wysiwyg.js - Source code analysis
 categories : ['code','source code analysis']
 ---
 
-<h2>{{ page.title}}</h2>
+<h1>{{ page.title}}</h1>
 
 ***
 
