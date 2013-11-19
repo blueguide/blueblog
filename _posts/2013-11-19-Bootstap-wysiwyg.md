@@ -12,6 +12,7 @@ Source code analysis
 
 {% highlight JavaScript linenos %}
 (function ($) {
+	'use strict';//Strict Mode (JavaScript)
 	/*Get the HTML contents*/
 	$.fn.cleanHtml = function () {
 		//Get the HTML contents
@@ -21,6 +22,8 @@ Source code analysis
 		//the key feature:(Optionally) cleans up trailing whitespace and empty divs and spans
 		return html && html.replace(/(<br>|\s|<div><br><\/div>|&nbsp;)*$/, '');
 	};
+	
+	
 }(window.jQuery));
 {% endhighlight %}
 
@@ -29,6 +32,8 @@ related reading
 ---------------
 
 -	[jslint](http://www.jslint.com/lint.html)
+-	[use strict-Strict Mode(cn)](http://qianduan-notes.diandian.com/post/2012-06-02/40027620460)
+-	[use strict-Strict Mode(en)](http://msdn.microsoft.com/en-us/library/ie/br230269%28v=vs.94%29.aspx)
 -	[jquery $.fn $.fx](http://hi.baidu.com/jjjvzugcpmcdmor/item/0e32a89c36a18544f04215d7)
 -	[The 30 Minute Regex Tutorial(cn)](http://www.cnblogs.com/deerchao/archive/2006/08/24/zhengzhe30fengzhongjiaocheng.html)
 -	[The 30 Minute Regex Tutorial(en)](http://www.codeproject.com/Articles/9099/The-30-Minute-Regex-Tutorial)
