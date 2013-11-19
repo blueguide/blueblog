@@ -9,7 +9,7 @@ tags : ['code','work']
 
 ## Website
 
-<small>[\[home\]]({{ site.baseurl }})<small>
+<small>[\[home\]]({{ site.baseurl }})</small>
  
 ---
 
