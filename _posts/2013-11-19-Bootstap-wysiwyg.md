@@ -18,6 +18,7 @@ Source code analysis
 
 	
 related reading
+---------------
 
 -	[jslint](http://www.jslint.com/lint.html)
 -	[jquery $.fn $.fx](http://hi.baidu.com/jjjvzugcpmcdmor/item/0e32a89c36a18544f04215d7)
