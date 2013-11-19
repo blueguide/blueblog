@@ -19,8 +19,6 @@ tags : ['code','work']
 
 -	<a href="http://www.careercup.com">careercup</a>
 
-![careercup][img1]
-
 ### Official website
 
 ---
