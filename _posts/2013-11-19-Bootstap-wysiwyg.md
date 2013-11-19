@@ -10,8 +10,6 @@ categories : ['code','source code analysis']
 
 Source code analysis
 
----
-
 {% highlight JavaScript linenos %}
 	(function ($) {
 
