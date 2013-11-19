@@ -260,4 +260,4 @@ footer {
 ****************************************************/
 
 /*avator*/
-.avatar img{border-radius:5px;vertical-align:top;}
+.avatar img{border-radius:50px;vertical-align:top;margin-left:5px;}
