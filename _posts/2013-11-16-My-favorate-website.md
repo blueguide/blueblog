@@ -9,14 +9,14 @@ tags : ['code','work']
 
 ## Website
 
-<small>[home]({{ site.baseurl }})</small>
+<small><a href="{{ site.baseurl}}">[home]</a></small>
  
 ---
 
 Always
 ------
 
--	<a href="http://www.careercup.com">careercup</a>
+-	<a href="http://www.careercup.com" target="_blank">careercup</a>
 
 Official website
 ----------------
