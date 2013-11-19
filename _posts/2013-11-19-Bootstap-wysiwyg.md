@@ -4,16 +4,22 @@ title : Bootstrap-wysiwyg.js - Source code analysis
 categories : ['code','source code analysis']
 ---
 
-<h2>{{ page.tilte}}</h2>
+<h2>{{ page.title}}</h2>
 
 ***
 
 Source code analysis
 
-	(function ($) {
-	
-	}(window.jQuery));
+---
 
+<blockquote>
+{% highlight JavaScript linenos %}
+	(function ($) {
+
+	}(window.jQuery));
+{% endhighlight %}
+</blockquote>
+	
 related reading
 ---------------
 

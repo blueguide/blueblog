@@ -13,15 +13,13 @@ tags : ['code','work']
  
 ---
 
-### Always
-
----
+Always
+------
 
 -	<a href="http://www.careercup.com">careercup</a>
 
-### Official website
-
----
+Official website
+----------------
 
 -	[Jekyll - Official website][t1]
 -	[Markdown - Official website][t2]
