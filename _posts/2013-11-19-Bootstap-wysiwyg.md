@@ -16,14 +16,8 @@ The [bootstrap-wysiwyg](http://mindmup.github.io/bootstrap-wysiwyg/) is a tiny J
 
 In order to facilitate reading the source code comments, please refer to the following agreement:
 
-1.	"**********(1-*)**********":The number says the reading order.
-2.	// or /**/: Code comments can help you to understand the codes.
-3.	At the end of this article,I have collected some connections that you may need.
-4.	(cn) or (en): The "(cn)" mark represents the chinese link and the english is "(en)". 
 
 ### Source code analysis
-
-
 
 {% highlight JavaScript linenos %}
 (function ($) {
