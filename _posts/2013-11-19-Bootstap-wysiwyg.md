@@ -17,7 +17,27 @@ The [bootstrap-wysiwyg](http://mindmup.github.io/bootstrap-wysiwyg/) is a tiny J
 In order to facilitate reading the source code comments, please refer to the following agreement:
 
 
+
 ### Source code analysis
+
+{% highlight CSS linenos %}
+/*The css can make your div look like an input area!*/
+#editor {
+	max-height: 250px;
+	height: 250px;/*necessary*/
+	background-color: white;/*necessary*/
+	border-collapse: separate; 
+	border: 1px solid rgb(204, 204, 204); /*necessary*/
+	padding: 4px; /*necessary  Keep content to look like in the box!*/
+	box-sizing: content-box; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset; 
+	box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+	border-top-right-radius: 3px; border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px; border-top-left-radius: 3px;
+	overflow: scroll;/*necessary Scrollbar*/
+	outline: none;
+}
+{% endhighlight %}
 
 {% highlight JavaScript linenos %}
 (function ($) {
