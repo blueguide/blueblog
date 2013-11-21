@@ -16,14 +16,16 @@ tags : ['code','work']
 Always
 ------
 
--	<a href="http://www.careercup.com" target="_blank">careercup</a>
+-	[careercup](http://www.careercup.com)
 
 Official website
 ----------------
 
--	[Jekyll - Official website][t1]
--	[Markdown - Official website][t2]
--	<a href="http://stackoverflow.com/questions/4425198/markdown-target-blank" target="_blank">markdown target blank-stackoverflow.com</a>
+-	[Jekyll - Official website](http://jekyllrb.com/)
+-	[Markdown - Official website][http://daringfireball.net/projects/markdown/]
 
-[t1]: http://jekyllrb.com/ "Jekyll"
-[t2]: http://daringfireball.net/projects/markdown/ "Markdown"
+My Coding Road
+--------------
+
+-	[markdown target blank-stackoverflow.com](http://stackoverflow.com/questions/4425198/markdown-target-blank)
+-	[PyQt4](http://jimmykuu.sinaapp.com/static/PyQt4_Tutorial/html/first_programs.html)
