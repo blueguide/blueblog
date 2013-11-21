@@ -29,3 +29,7 @@ My Coding Road
 
 -	[markdown target blank-stackoverflow.com](http://stackoverflow.com/questions/4425198/markdown-target-blank)
 -	[PyQt4](http://jimmykuu.sinaapp.com/static/PyQt4_Tutorial/html/first_programs.html)
+-	[linux idc](http://linux.linuxidc.com)
+
+username and password : www.linuxidc.com
+
